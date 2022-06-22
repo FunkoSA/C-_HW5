@@ -33,11 +33,11 @@ int[] arrayN = GetRandomArray(A,minValue,maxValue);
 WriteLine("Вариант решения №1");
 WriteLine($"В массиве из {A} элемонтов ");
 PrintArray(arrayN);
-WriteLine($"Сумма чётных элементов = {SumEvenElements(arrayN)}");
+WriteLine($"Сумма нечётных элементов = {SumEvenElements(arrayN)}");
 
 //String.Join работает только с одномерными массивами
 WriteLine("Вариант решения №2");
-WriteLine($"В массиве из {A} элемонтов [{String.Join(",",arrayN)}] сумма чётных элементов = {SumEvenElements(arrayN)}");
+WriteLine($"В массиве из {A} элемонтов [{String.Join(",",arrayN)}] сумма нечётных элементов = {SumEvenElements(arrayN)}");
 
 
 // Описание метода вывода на экран массива
