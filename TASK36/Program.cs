@@ -63,7 +63,7 @@ int[] GetRandomArray (int size, int minValue, int maxValue)
     return result;
 }
 
-//Описание метода подсчета четных значений элементов, сформированного массива
+//Описание метода подсчета нечётных элементов, сформированного массива
 int SumEvenElements(int[] array)
 {
     int SumElements = 0;
